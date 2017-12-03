@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecbook.proyectoecbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".proyectoecbook.Inicio_Sesion.spashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".proyectoecbook.MainActivity" />
+        <activity android:name=".proyectoecbook.Inicio_Sesion.LoginActivity" />
+        <activity android:name=".proyectoecbook.Inicio_Sesion.RegistActivity" />
+        <activity
+            android:name=".proyectoecbook.MainActivityTabs"
+            android:label="@string/title_activity_main_activity_tabs"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDtf7Ou7uARKqffV59_0ieiPbvZ_zia_yQ" />
+
+        <activity android:name=".proyectoecbook.Explorar.Pop"
+                  android:theme="@style/AppTheme.CustomTheme"></activity>
+    </application>
+
+</manifest>

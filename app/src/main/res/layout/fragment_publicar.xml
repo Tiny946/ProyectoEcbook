@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ecbook.proyectoecbook.proyectoecbook.PublicarFragment"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top"
+        android:text="Tu producto"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextNombreLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerInterVenta"
+        android:drawableLeft="@drawable/openbook"
+        android:hint="Titulo del libro"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinnerInterVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextAutorLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNombreLibro"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/pencil"
+        android:hint="Autor"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextGeneroLibro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTelefono"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/theatre"
+        android:hint="Género"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextGeneroLibro"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/euro"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        tools:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextEnvio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPrecio"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/mail"
+        android:hint="Envio (Opcional)"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextEnvio"
+        android:hint="Email"
+        android:drawableLeft="@drawable/email"/>
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAutorLibro"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon"
+        android:hint="Telefono"
+        android:inputType="number"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:background="@drawable/background_login_button"
+        android:text="Selecciona Hora"
+        android:textColor="#f16f7d" />
+
+    <Button
+        android:id="@+id/buttonSelecionarLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_toEndOf="@+id/buttonHora"
+        android:layout_toRightOf="@+id/buttonHora"
+        android:background="@drawable/background_login_button"
+        android:text="SELECIONA LUGAR"
+        android:textColor="#f16f7d" />
+
+    <Button
+        android:id="@+id/buttonSubirProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/show_selected_location"
+        android:background="@drawable/background_login_button"
+        android:text="Subir Producto"
+        android:textColor="#f16f7d" />
+
+    <TextView
+        android:id="@+id/textViewHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonHora"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/buttonHora"
+        android:layout_below="@+id/buttonHora"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/show_selected_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewHora"
+        android:text="                                       "
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

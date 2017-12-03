@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#088A29</color>
+    <color name="colorPrimaryDark">#088A29</color>
+    <color name="colorAccent">#FF8000</color>
+    <color name="fondoTransparente">#459e9e9e</color>
+    <color name="cardview_white_background">#FFFFFFFF</color>
+    <color name="colorItem">#5a9e9e9e</color>
+    <color name="blancoTransparente">#c6ffffff</color>
+    <color name="fondoTransparente2">#009e9e9e</color>
+
+    <color name="fondoBlanco">#FFFFFFFF</color>
+    <color name="colorLetras">#000000</color>
+    <color name="backgroundPop">#cad48f</color>
+
+</resources>

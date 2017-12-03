@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "550101242606",
+    "firebase_url": "https://ecbook2017uem.firebaseio.com",
+    "project_id": "ecbook2017uem",
+    "storage_bucket": "ecbook2017uem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550101242606:android:32b4b13f3a8d4fdd",
+        "android_client_info": {
+          "package_name": "com.ecbook.proyectoecbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550101242606-86iqk4s9s8iihodvt548do1jtrlpa45g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecbook.proyectoecbook",
+            "certificate_hash": "329ad2c3eaa6b159043ad5b5fb4d4794f91162f6"
+          }
+        },
+        {
+          "client_id": "550101242606-mc9t400o756g76f48ngid05j47tss64d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGlGwPP60AQyCJ34bnT28Pqme0v5SsRjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550101242606-mc9t400o756g76f48ngid05j47tss64d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
